@@ -1,0 +1,45 @@
+.header {
+  /* border: 2px solid yellow; */
+  color: rgba(255, 255, 255, 1);
+}
+.bar {
+  width: 1440px;
+  height: 40px;
+  background-color: rgba(42, 167, 255, 1);
+  /* place-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerNavbar {
+  /* border: 2px solid yellow; */
+
+  width: 1440px;
+  height: 96px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 206px;
+}
+.logo {
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  button {
+    height: 40px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    background: rgba(42, 168, 255, 1);
+  }
+  div:hover {
+    cursor: pointer;
+    color: rgba(42, 167, 255, 1);
+  }
+}

@@ -1,0 +1,47 @@
+.card {
+  width: 363px;
+  height: 458px;
+  padding: 0px 0px 20px 0px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(0, 0, 0, 0.07);
+}
+.cardText {
+  width: 345px;
+  height: 129px;
+  /* border: 1px solid yellow; */
+  margin-left: auto;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: rgba(27, 60, 116, 1);
+  /* place-items: ; */
+}
+.cardText > div:first-child {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(119, 130, 157, 1);
+}
+.cardText > div:nth-child(2) {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.cardText > div:last-child {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 5px;
+  span {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+}

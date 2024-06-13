@@ -1,0 +1,239 @@
+.footer {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------specilization---------- */
+
+.specialization {
+  padding-top: 56px;
+  /* width: 1449px; */
+  height: 729px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 62px;
+
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.specialization > button {
+  width: 147px;
+  height: 50px;
+  background: #2aa8ff;
+
+  /* background-color: #0093e9; */
+}
+.heading {
+  /* width: 532px; */
+  /* height: 67px; */
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: center;
+  color: rgba(27, 60, 116, 1);
+}
+
+.specialGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.specialGrid > div {
+  width: 270px px;
+  height: 180px px;
+  padding: 22px 70px 22px 70px;
+  box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.specialGrid > div:hover {
+  cursor: pointer;
+}
+
+/* ---------------medicalSpecialist----- */
+
+.medicalSpecialist {
+  width: 1440px;
+  height: 819px;
+
+  background-color: #2aa8ff;
+}
+
+/* --------------___patientcaring___-------------- */
+
+.patientcaring {
+  width: 1440px;
+  height: 598px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 66px;
+  background: #e0f2fe;
+}
+
+.patientImg {
+  width: 519px;
+  height: 486px;
+  display: flex;
+  justify-content: center;
+}
+
+.pateintText {
+  align-self: flex-start;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading_1 {
+  width: 365px;
+  height: 27px;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(42, 167, 255, 1);
+}
+.heading_2 {
+  width: 352px;
+  height: 67px;
+
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+}
+.heading_2 span:first-child {
+  color: rgba(27, 60, 116, 1);
+}
+.heading_2 span:last-child {
+  color: rgba(42, 167, 255, 1);
+}
+
+.patientPara {
+  width: 563px;
+  height: 87px;
+  margin-top: 20px;
+
+  font-family: Inter, "poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+
+  color: rgba(119, 130, 157, 1);
+}
+
+.highlights {
+  margin-top: 38px;
+}
+.highlights > div {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  gap: 10px;
+}
+
+.tickImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlightsText {
+  font-family: Roboto, "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(27, 60, 116, 1);
+}
+/* =----------news section */
+.newsSection {
+  padding-top: 40px;
+  width: 1440px;
+  height: 677.77px;
+  color: #2aa8ff;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.cardSection {
+  display: flex;
+  gap: 40px;
+}
+
+.newsHeading {
+  text-align: center;
+}
+.newsSubHeading {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(42, 167, 255, 1);
+}
+.newsMainHeading {
+  font-family: Poppins;
+  color: rgba(27, 60, 116, 1);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: center;
+}
+
+/* ------families section-------- */
+.families {
+  display: flex;
+  justify-content: center;
+  background: #e0f2fe;
+  padding-top: 28px;
+}
+.familiesText {
+  width: 575px;
+  height: 714px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.familiesSubHeading {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(42, 167, 255, 1);
+}
+.familiesMainHeading {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+  color: rgba(27, 60, 116, 1);
+}
+.familiesPara {
+  font-family: Inter, "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 40.8px;
+  text-align: left;
+  color: rgba(119, 130, 157, 1);
+
+  width: 531.17px;
+  height: 205px;
+}
